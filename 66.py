@@ -5,4 +5,4 @@ if z>0:
             print "no"
             break
     else:
-        print "yes"l
+        print "yes"
