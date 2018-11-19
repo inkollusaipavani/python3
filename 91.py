@@ -1,5 +1,5 @@
-l,b,h=map(int,raw_input().split())
-A = 2 * (l * b + l * h + b * h)
-V = l* b * h
+l,h,b=map(int,raw_input().split())
+V = 2 * (l * h + l * b + h * b)
+A = l* h * b
+print(V),
 print(A),
-print( V),
