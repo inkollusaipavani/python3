@@ -1,7 +1,3 @@
-v=int(raw_input())
-rev=0
-while(v>0):
-    remainder=v%10
-    rev=rev*10+remainder
-    v=v/10
-print rev    
+x,y,z=map(int,raw_input().split())
+ap=(z/2) * (2 * x + (z-1) * y)
+print ap
